@@ -20,7 +20,7 @@ public class Practicum {
         }
 
         getPhone(type, number).makeCall(friendNumber);
-        Phone phone = new Smartphone("123456");
+
     }
 
     public static Phone getPhone(int type, String number) {

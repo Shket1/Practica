@@ -12,8 +12,5 @@ public abstract class Phone {
         System.out.println("Набираем номер " + targetNumber + " и звоним по сотовой связи");
         System.out.println("Привет!");
     }
-
-    public String getNumber() {
-        return number;
-    }
 }
+git
