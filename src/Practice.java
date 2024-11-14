@@ -1,16 +1,17 @@
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Practice {
 
     public static void main(String[] args) {
-        String[] mas = {"Latte", "Cappuccino", "Americano"};
+        List<Integer> littleIntegers = Collections.nCopies(8, 2);
+        List<Integer> bigIntegers = Collections.nCopies(4, 8000);
 
-        for (String s : mas) {
-            System.out.println(s);
-        }
+        ArrayList<Integer> litintegers = new ArrayList<>(littleIntegers);
 
-        List<String> list = List.of(mas);
+        Collections.copy(litintegers, bigIntegers);
 
-        System.out.println(list);
+        System.out.println(litintegers);
     }
 }
