@@ -31,12 +31,12 @@ public class HandMadeLinkedList<T> {
 
     public void addFirst(T element) {
         final Node<T> oldHead = head;
-        final Node<T> newNode = new Node<>(null, element, oldHead);
-        head = newNode;
+        final Node<T> newHead = new Node<>(null, element, oldHead);
+        head = newHead;
         if (oldHead == null)
-            tail = newNode;
+            tail = newHead;
         else
-            oldHead.prev = newNode;
+            oldHead.prev = newHead;
         size++;
     }
 
