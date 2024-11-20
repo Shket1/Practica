@@ -1,4 +1,4 @@
-package practic.collections.Map;
+package practic.collections.Map.aviaSorter;
 
 import java.util.HashMap;
 import java.util.List;
